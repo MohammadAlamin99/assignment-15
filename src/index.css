@@ -1,4 +1,47 @@
-.logo{
-    color: red;
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    font-size: 60px;
     text-align: center;
+    font-weight: 700;
+    font-family: sans-serif;
+    background: #262626;
+    color: azure;
+}
+input{
+    color: #262626;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: sans-serif;
+    height: 50px;
+    width: 90%;
+}
+button{
+    height: 40px;
+    width: 100px;
+}
+.list-heading{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.listData{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.footer{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    font-family: sans-serif;
+    background: #262626;
+    color: azure;
 }

@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import Footer from './Footer';
 
 const Content = () => {
 
@@ -27,11 +28,10 @@ const Content = () => {
 
   return (
     <div className='container'>
-      <div className='header'>To Do List</div>
-      <input type="text" placeholder='add activity' value={activity} onChange={(e)=>{
+      <input type="text" placeholder='Add Your Activity' value={activity} onChange={(e)=>{
         setActivity(e.target.value)
       }} />
-      <button onClick={addActivity}>add</button>
+      <button className='btn btn-success' onClick={addActivity}>Add</button>
       <p className='list-heading'>Here is your list:{")"} </p>
       {
         listData!=[] && listData.map((data, i)=>{
@@ -39,7 +39,7 @@ const Content = () => {
             <>
               <p key={i}>
                 <div className='listData'>{data}</div>
-                <div className='btn-position'><button onClick={()=>{removectivity(i)}}>remove(-)</button></div>
+                <div className='btn-position'><button className='remov btn btn-danger' onClick={()=>{removectivity(i)}}>remove(-)</button></div>
               </p>
             </>
           )
