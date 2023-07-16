@@ -30,11 +30,10 @@ button{
 }
 .listData{
     color: #000000;
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 400;
     font-family: sans-serif;
-    border: 1px solid black;
-    border-radius: 5px;
+   
 }
 
 .footer{
@@ -44,4 +43,5 @@ button{
     font-family: sans-serif;
     background: #262626;
     color: azure;
+    margin-top: 428px;
 }
